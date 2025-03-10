@@ -36,7 +36,7 @@ const Cart = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/cart/remove",
+        "https://ecom-backend-z6au.onrender.com/cart/remove",
         { productId },
         {
           headers: { Authorization: `Bearer ${token}` },
